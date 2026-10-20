@@ -9,7 +9,7 @@ binding = "ASSETS"
 [[d1_databases]]
 binding = "DB"
 database_name = "kuralew-db"
-database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+database_id = "529994bb-c54d-442f-8ea3-a744337e5561"
 
 [vars]
 # Keep disabled for public production until Telegram initData verification is implemented.
