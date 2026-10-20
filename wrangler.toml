@@ -1,0 +1,16 @@
+name = "kuralew-marketplace"
+main = "worker/index.js"
+compatibility_date = "2026-10-20"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "kuralew-db"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+
+[vars]
+# Keep disabled for public production until Telegram initData verification is implemented.
+ALLOW_UNAUTHENTICATED_POSTS = "false"
